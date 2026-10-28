@@ -35,11 +35,12 @@ jobs:
       - name: Test and apply page pause update
         run: |
           node tests/page-lifecycle.cjs
+          node tests/completion-receipt.cjs
           python3 - <<'PY'
           import pathlib, json, hashlib, shutil
           source=pathlib.Path('site-overrides')
           hashes=json.loads(pathlib.Path('override-hashes.json').read_text())
-          assert len(hashes)==11
+          assert len(hashes)==12
           assert {p.name for p in source.iterdir()}==set(hashes)
           target=pathlib.Path('/tmp/v225/matrix-after-dark-github-lean/dist')
           for name, digest in hashes.items():
@@ -47,7 +48,7 @@ jobs:
               data=(source/name).read_bytes()
               assert hashlib.sha256(data).hexdigest()==digest, name
               shutil.copy2(source/name,target/name)
-          print('Applied 11 verified text overrides; all approved media untouched')
+          print('Applied 12 verified text overrides; all approved media untouched')
           PY
           for script in site-overrides/*.js; do node --check "$script"; done
       - uses: actions/configure-pages@v5
