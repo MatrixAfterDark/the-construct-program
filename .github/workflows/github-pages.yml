@@ -15,6 +15,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Download and verify exact approved test package
         run: |
           curl --fail --location --retry 2 https://github.com/MatrixAfterDark/the-construct-program/releases/download/v225-test/matrix-after-dark-github-lean-v225.zip --output /tmp/v225.zip
@@ -31,6 +32,24 @@ jobs:
               assert hashlib.sha256((root/'dist'/item['path']).read_bytes()).hexdigest()==item['sha256'],item['path']
           print('All 499 deployment files match approved package hashes')
           PY
+      - name: Test and apply page pause update
+        run: |
+          node tests/page-lifecycle.cjs
+          python3 - <<'PY'
+          import pathlib, json, hashlib, shutil
+          source=pathlib.Path('site-overrides')
+          hashes=json.loads(pathlib.Path('override-hashes.json').read_text())
+          assert len(hashes)==11
+          assert {p.name for p in source.iterdir()}==set(hashes)
+          target=pathlib.Path('/tmp/v225/matrix-after-dark-github-lean/dist')
+          for name, digest in hashes.items():
+              assert pathlib.Path(name).name==name and pathlib.Path(name).suffix in ('.js','.html')
+              data=(source/name).read_bytes()
+              assert hashlib.sha256(data).hexdigest()==digest, name
+              shutil.copy2(source/name,target/name)
+          print('Applied 11 verified text overrides; all approved media untouched')
+          PY
+          for script in site-overrides/*.js; do node --check "$script"; done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
