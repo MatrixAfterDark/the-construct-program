@@ -1,0 +1,4248 @@
+{
+  "approved_commit": "f38eaf97e4ef9c72b6eab5b24f75149b2279962f",
+  "method": "Transitive static dependency closure, all existing HTML routes retained, dynamic appearance images explicitly retained; no runtime file edits.",
+  "original_zip_bytes": 979997215,
+  "original_zip_groups": {
+    "other source, tests and notes": {
+      "files": 90,
+      "uncompressed_bytes": 924495,
+      "compressed_payload_bytes": 327875
+    },
+    "asset-history": {
+      "files": 806,
+      "uncompressed_bytes": 780301519,
+      "compressed_payload_bytes": 759015046
+    },
+    "dist": {
+      "files": 514,
+      "uncompressed_bytes": 227429923,
+      "compressed_payload_bytes": 220316096
+    }
+  },
+  "lean_dist": {
+    "retained": {
+      "files": 499,
+      "bytes": 218668914
+    },
+    "excluded_dist": {
+      "files": 15,
+      "bytes": 8761009
+    }
+  },
+  "retained_by_type": {
+    ".webp": {
+      "files": 377,
+      "bytes": 63745334
+    },
+    ".png": {
+      "files": 81,
+      "bytes": 127282492
+    },
+    ".html": {
+      "files": 3,
+      "bytes": 4576688
+    },
+    ".css": {
+      "files": 5,
+      "bytes": 194598
+    },
+    ".m4a": {
+      "files": 1,
+      "bytes": 234971
+    },
+    ".js": {
+      "files": 9,
+      "bytes": 167185
+    },
+    ".woff": {
+      "files": 3,
+      "bytes": 33956
+    },
+    ".mp3": {
+      "files": 6,
+      "bytes": 6641418
+    },
+    ".ttf": {
+      "files": 1,
+      "bytes": 128812
+    },
+    ".gif": {
+      "files": 1,
+      "bytes": 619276
+    },
+    ".mp4": {
+      "files": 5,
+      "bytes": 13612774
+    },
+    ".txt": {
+      "files": 2,
+      "bytes": 8315
+    },
+    ".json": {
+      "files": 2,
+      "bytes": 1392750
+    },
+    "no extension": {
+      "files": 1,
+      "bytes": 0
+    },
+    ".jpg": {
+      "files": 2,
+      "bytes": 30345
+    }
+  },
+  "retained": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "referenced_by": [
+        "Keep attribution / static hosting marker"
+      ]
+    },
+    {
+      "path": "after-dark-finale.js",
+      "bytes": 8038,
+      "sha256": "407e551e29d2f87d46ed0b5e065aadd154924616352b5631e2f413a586fa9258",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/choice-female.png",
+      "bytes": 1449484,
+      "sha256": "115eeeec6a649976fa40c6332b4d4502e1774e2e873781b117a8975d735cae51",
+      "referenced_by": [
+        "Dynamic choice filename in identity.js"
+      ]
+    },
+    {
+      "path": "assets/choice-male.png",
+      "bytes": 632846,
+      "sha256": "0dd14483f253c201d0d62133e656b41046f6ec3f2e1cf9205cc48f0228446b6b",
+      "referenced_by": [
+        "Dynamic choice filename in identity.js"
+      ]
+    },
+    {
+      "path": "assets/choice-neutral.png",
+      "bytes": 250540,
+      "sha256": "14a1c94f271e205a6f88def3ebb3daec82febda48f968df167e8b9c5f9c7de6b",
+      "referenced_by": [
+        "Dynamic choice filename in identity.js"
+      ]
+    },
+    {
+      "path": "assets/combat-poses-fine-grid-v2.png",
+      "bytes": 1335912,
+      "sha256": "fc69544441e8f4d764e57f55e6c18cab1a1fb60e396eabf62388d4395f395e32",
+      "referenced_by": [
+        "training-wireframe.js"
+      ]
+    },
+    {
+      "path": "assets/construct-picture-test.mp4",
+      "bytes": 3871331,
+      "sha256": "41eace7125237deaa097a09263ffacec8a55dd494c75160ff280507701498593",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/construct-poster.jpg",
+      "bytes": 8307,
+      "sha256": "208e7b32d3ff9403d238ca86661ee209ce7da42cd7cf313903b813f354988ca3",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/cortex-brain-8.png",
+      "bytes": 2664862,
+      "sha256": "a191e4e5c63f861d8da618f3b6cfbcf6c6e599679033518936f760641dea035b",
+      "referenced_by": [
+        "identity.css",
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/crt-letter-flythrough.mp4",
+      "bytes": 3441757,
+      "sha256": "061dd71e9c4a81123a8460f960e54905f32d98c869325d914f45466142bef137",
+      "referenced_by": [
+        "index.html",
+        "training.js"
+      ]
+    },
+    {
+      "path": "assets/dojo-background.webp",
+      "bytes": 155046,
+      "sha256": "73f53e76232fdca036d8f1d7f7b995d29570e41793bf4b4a15692001e3ee5bd1",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/fonts/LICENSE-DejaVu.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "referenced_by": [
+        "Keep attribution / static hosting marker"
+      ]
+    },
+    {
+      "path": "assets/fonts/LICENSE-IBMPlexMono.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "referenced_by": [
+        "Keep attribution / static hosting marker"
+      ]
+    },
+    {
+      "path": "assets/fonts/ibm-plex-mono.ttf",
+      "bytes": 128812,
+      "sha256": "a7fdc993f9f0387caedba4e42521136fa97e4c0837ae6239bf0413ccf8af00c2",
+      "referenced_by": [
+        "index.html",
+        "invitation.css"
+      ]
+    },
+    {
+      "path": "assets/fonts/terminal-display.woff",
+      "bytes": 8036,
+      "sha256": "8500be248ca8b7308ac600e55bb90651dc89355c08cb4e48bfae2cee7b1b2202",
+      "referenced_by": [
+        "index.html",
+        "training-archive.css"
+      ]
+    },
+    {
+      "path": "assets/fonts/terminal-mono.woff",
+      "bytes": 13300,
+      "sha256": "4f0024bbce6d272af6cdfd0bbbf76dbdc2baec0ff933034e9471f9c0e1c14eaa",
+      "referenced_by": [
+        "index.html",
+        "training-archive.css"
+      ]
+    },
+    {
+      "path": "assets/fonts/terminal-stamp.woff",
+      "bytes": 12620,
+      "sha256": "c32ad947a6773b6bd624dd74632a5b63ebf511025bed6d9187dc964a583910e0",
+      "referenced_by": [
+        "identity.css",
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/invite-phone-feed.mp3",
+      "bytes": 232571,
+      "sha256": "59ebf4861b24035f7f1a20c92ab24e4bf95a9af34580025ce3ad7f65f93d09a5",
+      "referenced_by": [
+        "invite-signal.js"
+      ]
+    },
+    {
+      "path": "assets/jack-in-restored.m4a",
+      "bytes": 234971,
+      "sha256": "63dce087865e9055925197584fd1b16f8eade4c03843e08babb95efe4f147ef6",
+      "referenced_by": [
+        "terminal.js"
+      ]
+    },
+    {
+      "path": "assets/m002-brown-v4.png",
+      "bytes": 1494733,
+      "sha256": "59239b810c7bd68a74b379589acc560127eef85b7ff98c23eff053c8f4e3a9d9",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m005-gritty-v10.png",
+      "bytes": 1737787,
+      "sha256": "4ed6f47a56a8cf0d12b3de321d4c1953fe894e3aef8f2d4c2f15b7147d692d71",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m006-brown-v2.png",
+      "bytes": 1762298,
+      "sha256": "0ec4e281bc6e3e4e77d03020e41201a6c4d7de5d3060e3092266b6fadea531c7",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m009-agent-gritty-v2.png",
+      "bytes": 1412933,
+      "sha256": "287e9894df3fb4da336ce0e809f1607be7b9aa50ed2ab956da88cc915d0b5462",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m010-brown-v4.png",
+      "bytes": 1470241,
+      "sha256": "d052bb4637e87fc6169fd43cfa7ae66254b9f80f89b70f342eaebdc609160329",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m011-blonde-agent-v1.png",
+      "bytes": 1440303,
+      "sha256": "9967cf9310639bc1d8fd0fd0cdbad5038818c4c43c49792a18f840ba13e13555",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m012-shaved-agent-v1.png",
+      "bytes": 1468415,
+      "sha256": "f4c5e6c657cec95ff4031a5436638ef92ba8b2289473192c4e67dd69eb60ecb3",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m013-agent-gritty-v4.png",
+      "bytes": 1537116,
+      "sha256": "62ec7723a07066ada176f10813e6328dbddc0437eea7b02524cbee9d57cc7a57",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m014-brown-v4.png",
+      "bytes": 1437008,
+      "sha256": "c6ea353c79b2223f779bbc5f87165e7f9f3a2e0da61521825b5e6d995ad22a0d",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m016-shaved-agent-v1.png",
+      "bytes": 1542144,
+      "sha256": "d257d82071921db698f6a92bfd0188bc3e45082627ebd7184b00e0f40f98e0b7",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m049-gritty-v4.png",
+      "bytes": 1724375,
+      "sha256": "1cecc0b8dc9ef6489bf19d788045be7364c408e066aed890c38f01286b4e6313",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m056-medium-black-operative-v2.png",
+      "bytes": 1757989,
+      "sha256": "16ae6b7de4beb5f55489cb6e1e738d1d3387555e2999bd480ad083188f961366",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m071-medium-black-operative-v2.png",
+      "bytes": 1633671,
+      "sha256": "8ad6209a1b95d1cab1da03c4eea70b0985c02bd7ac5622f81e83fd629e37ca07",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m074-medium-black-operative-v1.png",
+      "bytes": 1727047,
+      "sha256": "a8e83980e025d8ebbb4f872dc1849c0b41e0675dcb4953bd54de332dc725637d",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m076-shaved-operative-v6.png",
+      "bytes": 1629788,
+      "sha256": "ad0b25ec2cbdf49db40b998f7906e2753ba093958db1b807467828f11fcd251b",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m081-blonde-v3.png",
+      "bytes": 1846261,
+      "sha256": "63891ab53e98d3220dfc5693fce99f948d12c27c4bcd3b8cec0b19815e42028c",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m083-gritty-v4.png",
+      "bytes": 1682706,
+      "sha256": "8da3bf05ad4323ca682f4b7b9bfd22f24c181747e6223b0f2fbe135a163a549d",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m084-medium-black-operative-v2.png",
+      "bytes": 1926735,
+      "sha256": "02afc491871a3b742a3e426a80f6ad8932ef0c6c5c17b9d35c11da6d81650fe1",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m085-brown-v2.png",
+      "bytes": 1498386,
+      "sha256": "0d21065e4007cd699513dfc271dd1840b1833c11408b888cf4a9fc82c63c9d43",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m086-brown-v2.png",
+      "bytes": 1661699,
+      "sha256": "d02f19e35f3a533af89cd27e7249c546355d9f7b919e8ebb01d47175d272bcc9",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m093-gritty-v3.png",
+      "bytes": 1739829,
+      "sha256": "eeb18a19b4e0778677adab635e12bcce4905078d5df6395cd24789251cbb8d72",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m094-medium-black-operative-v2.png",
+      "bytes": 1774273,
+      "sha256": "ca970a77d4f548fe278501154e5bc3fd32fad397b8413e35a882c454e9b81dd6",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m095-gritty-v3.png",
+      "bytes": 1565905,
+      "sha256": "0cb82fd4a7d7547ed64b864d3b84055421a2b0ce94ab019e129252f94ab92040",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m098-blonde-v2.png",
+      "bytes": 1094642,
+      "sha256": "4ae1dc7a89617c26cefb0188f4054cffe02de661819a474f16037bfd6695e667",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m100-blonde-agent-v1.png",
+      "bytes": 797023,
+      "sha256": "d9eec942fabb8bde15983a8a80d8bc1c9556fd2396d2294d071514db721cc54a",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m102-brown-v4.png",
+      "bytes": 1656598,
+      "sha256": "6fbdb6aac4d0413ec7cb21bb61bb655c84c8df2cddba6d6af6b01e3c2755bffa",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m103-red-operative-v2.png",
+      "bytes": 1710738,
+      "sha256": "71585471d6c8f849d78535cce66edbfa2ca0261770ff75fac9a588c34594b03d",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m104-red-operative-v1.png",
+      "bytes": 1528955,
+      "sha256": "6813a602fdca6a4ab6a1df7daa6a2473e526bbb766ef8fe35048f0435f2fa53b",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m105-red-operative-v3.png",
+      "bytes": 1436070,
+      "sha256": "46d52a945788e7bad7875bdf86c58b2168589eee5869e4a1296c6f63bc277a52",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m106-red-agent-v2.png",
+      "bytes": 1477885,
+      "sha256": "44543f39f1b2312a152abf3538931076be07f11f1554dd89f5425757296914f2",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m108-red-agent-v2.png",
+      "bytes": 1600684,
+      "sha256": "e9986d7bb9212111c71f48ab12480883e52b6ae2f756f190de0b6b8417d56a4e",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m109-shaved-agent-v1.png",
+      "bytes": 1513681,
+      "sha256": "3ce2544e6fa66be568bfea22c612f13af4b3453c72b2f67ec691fb66c0e15a85",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m135-medium-black-operative-v2.png",
+      "bytes": 1761990,
+      "sha256": "a8d38512c4b26a9e1c4da1e0a8c875ffbbc23f7ba057e4dc4e14fdd9c89205a9",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m137-shaved-operative-v6.png",
+      "bytes": 1932044,
+      "sha256": "4757a286579aad503a2af7446fbfc22c8ec02a9e42be50d85c05fdcfc0e308ae",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m142-blonde-v3.png",
+      "bytes": 1704410,
+      "sha256": "1bcf7ec2bb63a9294a5d65e56f0fe7fdd59e3079a2750b58bcf76fe3683014cc",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m143-brown-v4.png",
+      "bytes": 1483670,
+      "sha256": "e5093c7922a59f263ce4278f0266d116badc07c55f2b7c5f653db48790388337",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m146-blonde-agent-v1.png",
+      "bytes": 1557009,
+      "sha256": "3d5e9e3b22b0c65daecbee94b358ffff7a25f182f282da1bf1af352f5be582eb",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m151-shaved-operative-v6.png",
+      "bytes": 1638273,
+      "sha256": "129bafd7ef2af395ca4dac8809b5fe5d4da93735308f075e6b37e70b6ce2a29e",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m152-brown-v2.png",
+      "bytes": 1754887,
+      "sha256": "bc498db563c7ab2f7038a331bb220d1174024c88e31e5f0ceefa6a4502efa96e",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m156-red-operative-v2.png",
+      "bytes": 1602410,
+      "sha256": "fd5721a378fedc4becac93fb6a417a5f306b8876b74d60e585cd2e5e2358d271",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m157-red-operative-v2.png",
+      "bytes": 1615969,
+      "sha256": "91c7d1ca26cc4d50cdbc39c2488be76e818468a7a80ff96addf2ca09af0cede1",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m158-shaved-operative-v7.png",
+      "bytes": 1630936,
+      "sha256": "3162e9fcc60580de44aedb47416a17cdd3ab0783f0eeddbe218ece442f6463bf",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/m159-shaved-operative-v6.png",
+      "bytes": 1546324,
+      "sha256": "850363aff6a17ecc00084ae248f0c940f96ca9d98515aa5b4da7a9179a46b99b",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/male-gap-dark.png",
+      "bytes": 1576473,
+      "sha256": "12c2e5ea669456d550a79002f0e826c11d288e94ab32dd21b6d77e21f9c41e41",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/male-gap-tan.png",
+      "bytes": 1610582,
+      "sha256": "797bba6511958de3d4b7346383acc65f069ca382c46e00d4d0f41ab2a3835b20",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/male-original-transparent-01.png",
+      "bytes": 1818432,
+      "sha256": "c471605ee37c90280d01b1781f3d36890ace489ab1fb97756f4e926e87d8e7e0",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/male-original-transparent-02.png",
+      "bytes": 2024003,
+      "sha256": "f09ff905e06a3fe8e38b8f3758a3a4b5f1037dd9224fce9dcd49fcc5bbf3c428",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/male-original-transparent-03.png",
+      "bytes": 1982994,
+      "sha256": "49b22131809f92c7dd53243f1dc8dc94ac743c5a86761a9b0333bf0cff800ee5",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-bald-black.webp",
+      "bytes": 43552,
+      "sha256": "9340a2ecbd66773298f752b6fc8a72ba171b9829028fd87146f9b5747d713b7c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-bald-coat.webp",
+      "bytes": 42746,
+      "sha256": "1014e8be28c899ff3708af76d1e9133595598f3ff3306725644b908630887588",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-bald-white.webp",
+      "bytes": 44040,
+      "sha256": "ea944135a5af4e67aef07b99e31d5927c724fd14d301ec5d690ab921646604c7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-black-black.webp",
+      "bytes": 43348,
+      "sha256": "ab1b4988253d574c0d2ce93443979c39b0d0857b782e51e104f5435c9fdbc61b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-black-white.webp",
+      "bytes": 43580,
+      "sha256": "1d4c67e5940a2b2cad85d487515165d4103d6bc562924b55a30a2a8987cf4d95",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-blonde-black.webp",
+      "bytes": 42988,
+      "sha256": "ef2c89326ffd02ac8b6f15c33510fda5999f459e900acf46d28637ab688cd48f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-blonde-coat.webp",
+      "bytes": 46438,
+      "sha256": "fa37c8caed30e5872a0808f7da3dc4df7939a4534468193fa3bfcb852c0fe27a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-blonde-white.webp",
+      "bytes": 45474,
+      "sha256": "0320a044efa773b6a009d9bcf830ee4cf1d7b784b17684e1fa9b0150ba61adc5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-brown-black.webp",
+      "bytes": 44956,
+      "sha256": "daa662c9ab315d069e454d04199c6541b976cb551c1d7be40f03690e92ebff60",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-brown-coat.webp",
+      "bytes": 43436,
+      "sha256": "2673421e8d09425ad3c239915e9a42efe3a888b2f6795346dffc4fdaf75b2f75",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-brown-white.webp",
+      "bytes": 44668,
+      "sha256": "97e188bcc023fee45c92e27d7773a9997292891cd92ab72d470b3ed78460a1d0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-red-black.webp",
+      "bytes": 43514,
+      "sha256": "d3c3799a5f5c15b21fe25369b087b1ac5589f25fc1801051eb430035e6ea81a8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-red-coat.webp",
+      "bytes": 44058,
+      "sha256": "e576ec423470c1bb68da000fbe4517e88b166e6fce41464c49f6fcdfbd31276f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-deep-red-white.webp",
+      "bytes": 44506,
+      "sha256": "bfdb555fe58f0d744f026a3eb1b31e9bc9f3eef5f484c697c729e44aadd1d89b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-light-black-black.webp",
+      "bytes": 43654,
+      "sha256": "f901aeb6ade3132a3810fb5dea0e22879c53ca6d9e497e9f74f4a359ccac4d94",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-light-red-black.webp",
+      "bytes": 45954,
+      "sha256": "ee6f634d482d5db89cf95612e741f2e2254e7611339a3387edef6019de81dbd3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-bald-black.webp",
+      "bytes": 44596,
+      "sha256": "140163a1ef6483280d061bab91eb7472efb7512111e1717a356ba7f5e07255e2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-bald-coat.webp",
+      "bytes": 42130,
+      "sha256": "9e8f33082909022842b1c5b90f1dc30a8fa9c8d3409230e3bc292fdf4d90ccf1",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-bald-white.webp",
+      "bytes": 43568,
+      "sha256": "242df482748fe4fa37ecc08227db9b27bca103b030f83454dc9d0ff2c01547dd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-black-black.webp",
+      "bytes": 44292,
+      "sha256": "533aa3a142dfd653b7a98bf4ced5ae43c1d0a491488e2f8a437f4fdc9ca3f158",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-black-coat.webp",
+      "bytes": 40620,
+      "sha256": "e2d09e68238254f32d3045df454bbffdc36d04abafd32f31177164fe6198efd1",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-black-white.webp",
+      "bytes": 45856,
+      "sha256": "914a07daa015a698152806cc2e31bfca37df62c5753dc4e26a2bc69f50c292ee",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-blonde-black.webp",
+      "bytes": 45512,
+      "sha256": "3fefc90a7f3dff147b8ba4b99010072d1c198e171fcae18a73850b3c5e0ee562",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-blonde-coat.webp",
+      "bytes": 43770,
+      "sha256": "cd7ac42df609cde07e80abdb8c6e9934ba6c71dbc4d5cf5521815374c945e3d5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-blonde-white.webp",
+      "bytes": 45280,
+      "sha256": "65ed4e02569a534681e5b9ad314ef98ad7173bf1b36f13ea49ea32596202e447",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-brown-black.webp",
+      "bytes": 42934,
+      "sha256": "fa723ca414a67cdbdeff1d315c6356516f74758ec09d4fece7338fbb699ad12e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-brown-white.webp",
+      "bytes": 47732,
+      "sha256": "09d62382c886d86b8214f0a79dd674ab35baec7290b6e7788c90269bc2749753",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-red-black.webp",
+      "bytes": 45906,
+      "sha256": "5aa1f7347a2433a4dc8a7403e05dbca368a6107129b622421b4a83a97511880c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-red-coat.webp",
+      "bytes": 42308,
+      "sha256": "7bdd85a4e0f964c57b8b9f2d024678c967ed3721092ddf3a959f564627e554de",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/men-agent-approved/agent-medium-red-white.webp",
+      "bytes": 46834,
+      "sha256": "b78098c906bcaac242b476ca8e267f2f7609273ba8552f55b11d6172b8114dc5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/morpheus-identity-command.mp3",
+      "bytes": 107798,
+      "sha256": "c7c6e727a08231dc1053e1eb7208e96888a1a2bc63c99824d2465d40bb02e8d5",
+      "referenced_by": [
+        "assets/training-program.json"
+      ]
+    },
+    {
+      "path": "assets/morpheus-opening-shot.mp4",
+      "bytes": 1168285,
+      "sha256": "9903bee8138d32b83af89619aabc611efb608efedaba94f3ba2b889b748aa68c",
+      "referenced_by": [
+        "assets/training-program.json"
+      ]
+    },
+    {
+      "path": "assets/morpheus-sparring-program.mp3",
+      "bytes": 273009,
+      "sha256": "1c89358178ac2d7121d09cdeda3643261216b1406243dd335cf6953be973c88c",
+      "referenced_by": [
+        "assets/training-program.json"
+      ]
+    },
+    {
+      "path": "assets/neural-atlas.png",
+      "bytes": 1943996,
+      "sha256": "8705c16f2e69d15249d40367dfc7f1f04b8d2951a38b9336e125212e0c0d76c0",
+      "referenced_by": [
+        "index.html",
+        "invitation.css"
+      ]
+    },
+    {
+      "path": "assets/original-cutouts-04.png",
+      "bytes": 1992685,
+      "sha256": "12f95c2bf8443e01801fada3871234b9e3920de45012a6f3e9a5a2c6d11c3568",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/original-cutouts-05.png",
+      "bytes": 1875946,
+      "sha256": "20fb2a2e9ae4b4a5441e20c60e04fe160864a2bb828d49668ab376992c4a35b0",
+      "referenced_by": [
+        "assets/selector-characters.json",
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/original-cutouts-06.png",
+      "bytes": 2007570,
+      "sha256": "700dc8fd136a7765f3b08b1ddd399e03e98f8b9d49abc3a64a96b694940f1951",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/original-cutouts-07.png",
+      "bytes": 1921779,
+      "sha256": "3464345771f1a32c029ceacd7d053901e9a4694373837492dc44b742eff152c9",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/original-cutouts-08.png",
+      "bytes": 1039586,
+      "sha256": "cde1b5f0cffcfbd47f3f67cf2fbeef2208de8bfa836e7629ba014ca29e41430c",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/original-cutouts-09.png",
+      "bytes": 1038659,
+      "sha256": "5cce062f8795a332efa4965ba0de0dbf887b9e42a1f40e4eb7066054a7cb7df3",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/phone-atlas.png",
+      "bytes": 1282446,
+      "sha256": "2c5920356082f705a156adb46c063fa62a4e83ff1967b5a34deaa6fc6956906c",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/red-androgynous-dark.png",
+      "bytes": 1964988,
+      "sha256": "a2ad18abac40e7f189b5fc32ea88665d014d023a57761905261372cc0f4f7508",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/red-androgynous-pale.png",
+      "bytes": 1938992,
+      "sha256": "e0b95e257793428139d9569a5e1644ccbd3a93787e7afbe447cf612993f0a8a8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/red-androgynous-tan.png",
+      "bytes": 1566653,
+      "sha256": "4b1d1d0aad034e21f52b2620d6f34569f5ab32c8064f3fa513e5b5a724db6b6b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/residual-clean-atlas.png",
+      "bytes": 675049,
+      "sha256": "30c2b7493ced9ebf1087452ccb7a12c21907d2710a15e2609107b9147aa1fa5e",
+      "referenced_by": [
+        "identity.css",
+        "identity.js",
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/residual-voice.mp3",
+      "bytes": 179107,
+      "sha256": "9ba57ef211069b322643ef69d26f8117311ceb8036676907f189e3ef22205969",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/selection-music.mp3",
+      "bytes": 5791170,
+      "sha256": "6e1671e327f75f87faaeac8ea3dc375c8ec230610a6c3778fa5ba12d34252290",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/selector-androgynous-dark.png",
+      "bytes": 2067853,
+      "sha256": "72296f36055d290a6af7ab7743f629314aa6a26a5f5b910bfe790c2a3012f617",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/selector-androgynous-pale.png",
+      "bytes": 2049479,
+      "sha256": "92fb47bb757ecc2d5dc8dfd48313e8984be037e469de9db3e3937612726c7b7b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/selector-androgynous-tan.png",
+      "bytes": 2042515,
+      "sha256": "45bfc5439c318e504af70131a70610c7e273529762fef80fb3144f1535e226a2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/selector-characters.json",
+      "bytes": 1391533,
+      "sha256": "8842ae535392ab6739c52961c7f1766e50b15956a32edf82e1ef553002a6d373",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/selector-masculine-dark.png",
+      "bytes": 2060599,
+      "sha256": "303168939a858b5e25173a1199fb9ffedd4b27aff7cdfa0a71180ec654d54412",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/selector-masculine-pale.png",
+      "bytes": 1985345,
+      "sha256": "81fb3fcf68628992f85fabe4593a603940af128a5d5e8de15db5ab1764d540fa",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/selector-masculine-tan.png",
+      "bytes": 2123645,
+      "sha256": "0a5fe2fa32822472cbedd3c19f14fb5f71fdf643734076136597a8f61cdfa4af",
+      "referenced_by": [
+        "review-men.html",
+        "review-men/index.html"
+      ]
+    },
+    {
+      "path": "assets/selector-rush.mp3",
+      "bytes": 57763,
+      "sha256": "82f1c8486f82f748a066fbdbe95a60aefcd8b6ade0b35688bdff51a25f7a3de0",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/skills-original-poses-wire-v3.png",
+      "bytes": 1283212,
+      "sha256": "a15b82a0e4736dccbb3a54b83346c6afd8a0d5c12879fb9570539c19e7028a60",
+      "referenced_by": [
+        "training-wireframe.js"
+      ]
+    },
+    {
+      "path": "assets/sparring-introduction.mp4",
+      "bytes": 3884200,
+      "sha256": "27e0adc0c1455adae791d9f8076734f13d9ad58806198093cda886393444697c",
+      "referenced_by": [
+        "assets/training-program.json"
+      ]
+    },
+    {
+      "path": "assets/subject-cam-still.png",
+      "bytes": 24701,
+      "sha256": "3b94824a754d90a850696397df3f40bf32692243467eab761dd40695770282ed",
+      "referenced_by": [
+        "index.html",
+        "invitation.css"
+      ]
+    },
+    {
+      "path": "assets/subject-cam.gif",
+      "bytes": 619276,
+      "sha256": "7bc1f9d2d1e3a4211b87a753b2b66386afc08746ba3a6d955fc905c292922fea",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/tank-call-poster.jpg",
+      "bytes": 22038,
+      "sha256": "ae9e3f9eff3de126805400e9461d5ddffe6e5dc2ae3d0f51ac8fa0b4ed8490bb",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/tank-combat-short.mp4",
+      "bytes": 1247201,
+      "sha256": "ec69a8956e579c0fbc2ad4c984026a026380bfffcdd589b2b47af98b8d3df091",
+      "referenced_by": [
+        "assets/training-program.json"
+      ]
+    },
+    {
+      "path": "assets/terminal-drive.png",
+      "bytes": 32410,
+      "sha256": "7ffe8d61d80e1e22dee664d18a53d4aa1cf81881b0368b5fe491c2f81d1f387f",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/terminal-floppy.png",
+      "bytes": 2775965,
+      "sha256": "28449af15a8d203f41fd0dea75c950b2940b9770877fd867ec1452253976ed8a",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/terminal-shade.png",
+      "bytes": 18654,
+      "sha256": "ab33425d299b7ddccb7024386aaeb751d5485fb3de16ec012ff25a5f9c3ec1bb",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/terminal-shell.png",
+      "bytes": 2062651,
+      "sha256": "881a6284403d0232383d321848d8d9c97ac6699b4aea9e054b64d8c5eec2ca15",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "assets/training-program.json",
+      "bytes": 1217,
+      "sha256": "91d8021b0c2a470206c5d76005b9e428df94dc1253b844257a1923292764626e",
+      "referenced_by": [
+        "training.js"
+      ]
+    },
+    {
+      "path": "assets/wardrobe-atlas.png",
+      "bytes": 2447676,
+      "sha256": "36d6f590776b67b5acc22528fcb3ae76a4fe4f2ddf26ab254249b56778b708d4",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/wardrobe-expanded-atlas.png",
+      "bytes": 1761179,
+      "sha256": "f922dcd9d76c49ecc9d0087bbbefd594f8ee176f022bc02695fbfab2cb59b0e1",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-a-v1.webp",
+      "bytes": 182982,
+      "sha256": "f14ff38f7ad8986e42910f1c29a4916f630bcb24eed1083cb6acb087ffe9918b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-b-v1.webp",
+      "bytes": 232576,
+      "sha256": "6cc6b1665c1773a27f8ffd18789af233c60c1e99ae5bf0c1e6c151244ae501ac",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-c-v1.webp",
+      "bytes": 251678,
+      "sha256": "c459730538e1a6ab267a022eab886008351d859d2e1346a39d8e6a5ddd664953",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-d-v2.webp",
+      "bytes": 194682,
+      "sha256": "b1d2eaf4440d3974be50077cf2405ef573f3da54ec909a6179b9ce818caeb5de",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-e-v1.webp",
+      "bytes": 199386,
+      "sha256": "033d297c25fbdba258cb4044e1ad074f251cb3d1ffbbbaeb13829c9ec2fc1777",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-f-v2.webp",
+      "bytes": 193328,
+      "sha256": "c81079701d101d0a5d9f01f771790057d9c1e65b0ff7d0745290a0ca5968670e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-g-v1.webp",
+      "bytes": 249168,
+      "sha256": "f964c4585e80896957a21be09ed6e56eca7e903f377acda31dbc0ef4dce433c9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-h-v1.webp",
+      "bytes": 235554,
+      "sha256": "f1ab5f171d06a4c9031ce8fe34d9bec1a12b7ca5e009f6ef0ca32b7f77e5c1c9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-i-v1.webp",
+      "bytes": 198050,
+      "sha256": "6cf4232ca96e569d9ed9907e3a05f2b9fb23925d45ac822960227e2427cd6de8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-j-v2.webp",
+      "bytes": 245404,
+      "sha256": "c3c22dba7436dece7921718c4e64e623503431f0f1794aa6948d003913c63e6c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-bald-k-v1.webp",
+      "bytes": 213526,
+      "sha256": "670f738af4a321071187e4c0e91ed9733bf80130082f8886713f2d834c1d3452",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-a-v1.webp",
+      "bytes": 184022,
+      "sha256": "fdd4f5715b47ceb14ea66b72fc1948fa9c2bfc13afadbc59c35f79072bdce807",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-b-v1.webp",
+      "bytes": 223378,
+      "sha256": "60061a3084b7e9974ce28ed758201e1ae745504145ab0b855c03901ca8bf9b34",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-c-v1.webp",
+      "bytes": 239912,
+      "sha256": "4a44f4908238ddd4d0ec299e9d38c210384de497e9158d46b4e9758b9678459f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-d-v1.webp",
+      "bytes": 204280,
+      "sha256": "c16471eaea09ed0972f182827b4693a83069f898c25aa7031b235644ccebe99b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-e-v1.webp",
+      "bytes": 214780,
+      "sha256": "1638865cef0a4712ff4269fa34249cbca7fa9cd34223e6f3131e7cb01a691d23",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-f-v1.webp",
+      "bytes": 205036,
+      "sha256": "a0b0d0bada97632a44914fbb0de26ab12bd2dc366967fee4a3da44a9eeb803be",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-g-v2.webp",
+      "bytes": 268410,
+      "sha256": "2fc78bfb9ed18cdc68f721dff595e3a3b832a57fcfc370bf8fb09c4664fc62b2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-h-v1.webp",
+      "bytes": 233936,
+      "sha256": "064335ec2924e981acfe4ff81a09c1680ba2fc32e216d43e21ccbcdfa3c70b65",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-i-v1.webp",
+      "bytes": 202188,
+      "sha256": "1fa4c91180f0717e498198b5d5f679f36b2c904e118c5a9f107b1ec40fbdc170",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-j-v1.webp",
+      "bytes": 247170,
+      "sha256": "45b8e2d22a951b41820f51eeb261728b48f49a125846e02b005a6c1fe83e0152",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-black-k-v2.webp",
+      "bytes": 198988,
+      "sha256": "2b29b274d16d79b9de689c9f437b0b75395bdd618b7b3f55ba5e6857abf38075",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-a-v2.webp",
+      "bytes": 168680,
+      "sha256": "49078de551936ef020cd47e3077c2d3bfdc6ce98b1aa901bad80b483f5fd34fd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-b-v1.webp",
+      "bytes": 224564,
+      "sha256": "7a30636161163f33982b752a16a61a066efe326eb29fcfef935513c830eca965",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-c-v2.webp",
+      "bytes": 246890,
+      "sha256": "8be6b4518ca803f02b15ae4b20b792abeb2f009e3184df2c08a917c37a4380ca",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-d-v2.webp",
+      "bytes": 214442,
+      "sha256": "644033249dce62378f986c1519a32c2729b2c47c2061595f7ed6aa77e388414f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-e-v2.webp",
+      "bytes": 204084,
+      "sha256": "df080cbeb7381181d6357cca04c673869adf0f6a6804e7f73d88c6e83f2f91fd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-f-v2.webp",
+      "bytes": 220218,
+      "sha256": "e7dc5126ff7efe7ba6b0ea7b0a41aa05dc145761b66dbe70aec0d1335285e758",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-g-v2.webp",
+      "bytes": 249824,
+      "sha256": "762a76eb2017d95c15ab97a971b2ceac0735fde54cec11413e268331f0d95187",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-h-v2.webp",
+      "bytes": 258076,
+      "sha256": "3bd98c6e7920d8ca56f0668bfdf7902ea638ede8ccdd71b03022de72d25bfeb6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-i-v2.webp",
+      "bytes": 227914,
+      "sha256": "a98d98da7e8e23621d923f8f03d84176c4751c582a8d391034f020e467aa2f52",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-j-v2.webp",
+      "bytes": 253588,
+      "sha256": "e7d428317fba5e1a01f2fb5384a72f004bca1e9f2f99844795173a97467e8dae",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-blonde-k-v2.webp",
+      "bytes": 208918,
+      "sha256": "c308f501701bf43d7d3c0bf79e894aa37024f5c6b0091dab0b8647d3bff57204",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-a-v1.webp",
+      "bytes": 177870,
+      "sha256": "1ff28e1f654d608dc83137cee5faa49ce30b404bb275a94e50d034e46605efb6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-b-v1.webp",
+      "bytes": 220404,
+      "sha256": "e4e9c360d2dea77a61bd900f3d31d7e2d0dad68269456c67d53bfb6719f278e9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-c-v1.webp",
+      "bytes": 214822,
+      "sha256": "a2aaca06ef5af251267013ca3e0ee6cea51d1b1e4e5df5b6e3d9328676f92c6c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-d-v1.webp",
+      "bytes": 212462,
+      "sha256": "e51d9a3d710c205a4c1c7caa1ff32738400c5e5e43b1de2881a04f9cc82c6bf2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-e-v2.webp",
+      "bytes": 198490,
+      "sha256": "4518b02264bcb697c8291bf0e6734220d5dbec46a7c78a6cf4b669331420ff04",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-f-v1.webp",
+      "bytes": 207166,
+      "sha256": "3a58c00a6ec3819e9e0f23cc5f6521e0d7d296f001b6b4310ed1617982db6069",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-g-v1.webp",
+      "bytes": 252260,
+      "sha256": "d017567dc936805465ada6015ddbdae2a00046b20fbff63de9490745080ce9c0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-h-v1.webp",
+      "bytes": 230702,
+      "sha256": "f63e1b650b4b89201aa02ebc6383a267a8388fb04c771c2dbb3bfb7f09ef152d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-i-v2.webp",
+      "bytes": 210210,
+      "sha256": "b95644f180ea9f7cbda499e24e55b1e48d32f1c6590dd94f3f403659a2799dc8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-j-v2.webp",
+      "bytes": 273856,
+      "sha256": "c97b3a98306c7c9de84229d9f4102d2d8b29ffbd55e24706f938c930d75a7001",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-brown-k-v1.webp",
+      "bytes": 195408,
+      "sha256": "1b12ca75d995a1d5118addec1be74d55f69a347be3e5d1da73bb1b68d260c5ce",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-a-v2.webp",
+      "bytes": 167392,
+      "sha256": "ae3c9424d1f040d10bf668dcdb07bbda6d5b562bd5331230c0424639c159d873",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-b-v2.webp",
+      "bytes": 225294,
+      "sha256": "c6fc13017b695d7351d3da56ed082437957709bd783cf0b6c2354999515bfc84",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-c-v2.webp",
+      "bytes": 246092,
+      "sha256": "a73fc2d05e3ed2904eedc89d14c01707798b968477cd2c18cb12f0dfffdc574a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-d-v2.webp",
+      "bytes": 214372,
+      "sha256": "1e2561df10ab176ce45f70844ba2f84ff06c3796a33d30aa722701b69fedfaef",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-e-v2.webp",
+      "bytes": 217650,
+      "sha256": "301a194cc7638300a8e98e9f064417d2620f8069ff6470290ce9aca8d5e50a1c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-f-v2.webp",
+      "bytes": 213694,
+      "sha256": "6d4e5b3ce37471f206f5799ed5473b734969ff6db4053fb3ab39933ec6aa4f08",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-g-v2.webp",
+      "bytes": 244512,
+      "sha256": "f573cdca9a546f2bb483e8cf47acc80ce716a79836239b2ce2c5ce8b011d9317",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-h-v2.webp",
+      "bytes": 248778,
+      "sha256": "669677d22a897affe5263190ed9141c6c536b035dd1a1514944c2d7d1f60f4f6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-i-v2.webp",
+      "bytes": 213996,
+      "sha256": "2c2408919f28cab48c18070d961dea63bcfb27baf5479929bbc4c8fefded0ef4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-j-v2.webp",
+      "bytes": 241442,
+      "sha256": "19f4e3a537d700ae33d9bc5e89b4c57eb0c0c93db8799e551f379d4e043267fd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/dark-red-k-v2.webp",
+      "bytes": 209422,
+      "sha256": "a386d29f63545cd4e3875890550379b41c2c114df935334608edb65bf2ea4603",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/m052-white-twin-extra-v1.webp",
+      "bytes": 199772,
+      "sha256": "9ab82fffa753088d5d94c7cacbf7b7ae87e45893008a703899ab4c02957214da",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-a-v1.webp",
+      "bytes": 186154,
+      "sha256": "c28b52001fff5ae59cfe6235578e39fe5745d1b8da80ea1376ac9942434a3955",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-b-v1.webp",
+      "bytes": 229924,
+      "sha256": "f094c856602bbee29de6e7b4c7614baa4f61c8519d2e62233a474bf869a85e09",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-c-v2.webp",
+      "bytes": 220390,
+      "sha256": "33d279ed47696863ecc5dcdfbfd9e28d6b67d2674b7a05a846045febc016d643",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-d-v2.webp",
+      "bytes": 200226,
+      "sha256": "c58431864c2e2fd0cef831c7bfd0827ed9f0740ca61262809a27ce1ed362cb6e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-e-v2.webp",
+      "bytes": 184396,
+      "sha256": "1ff13d4b5ce763ee6b6a3d30c19f4ae9d1dffec5672367f5d7cccf49b08958bd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-f-v3.webp",
+      "bytes": 151468,
+      "sha256": "72ecfa91f54aea270f2fbe06166bfe699b9b9d2d98f3a9c843154c70a1019374",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-g-v2.webp",
+      "bytes": 274004,
+      "sha256": "1e213b4fdce73932c4e4429dd497e53a10072377781d668bee2b25dddb42fea5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-h-v3.webp",
+      "bytes": 212858,
+      "sha256": "943c809fc21d0576a573a4b9db65c95dd9d4fece38c80ea6052147d3a8d4e1bd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-i-v3.webp",
+      "bytes": 204760,
+      "sha256": "46204f23895529b55c2c0c40a0c1b11ed40551e8414e11b366ed4c4c40850108",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-j-v3.webp",
+      "bytes": 243506,
+      "sha256": "3776aa5d50823ea8e6ccb1f3bdf407d58fb21e518dc80056734571ca1e0f7657",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-bald-k-v3.webp",
+      "bytes": 217796,
+      "sha256": "545447cc0420f7ae5978613191da9597b2de54b96ca0b0b4a534d0a18661c397",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-a-v2.webp",
+      "bytes": 214444,
+      "sha256": "b57e0e21316061c59053c7d12b6e0c76f1a1ec24aa0a5a03dd3cdb3a9453ef2f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-b-v2.webp",
+      "bytes": 228696,
+      "sha256": "2f7388e47639dc664b66751a8bfd52077bd9d93de0d50adc6b18a28773eb150f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-c-v1.webp",
+      "bytes": 263012,
+      "sha256": "7f10dfd3ff07c2706e48533ea31d8b5767bbecfb05402d946dd8da8115213b95",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-d-v1.webp",
+      "bytes": 214724,
+      "sha256": "4027ab6b970c0adec0aa333542f635652ec1e55fcd28f0d4d48f3245ab7a06b8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-e-v2.webp",
+      "bytes": 224934,
+      "sha256": "14b44958006b9282a6917f3270d4c71dc46815c5747dcbf6913edd980c6c6045",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-f-v2.webp",
+      "bytes": 198296,
+      "sha256": "13fdcf960d3ebfa8c0b210ca1ecf70251ab9245cc3daa5b62e24403ec18e253b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-g-v2.webp",
+      "bytes": 260176,
+      "sha256": "78884dac31c46835e8e9f96deaac145a7f1c342eb9519ed6d80e1658d7c39af9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-h-v2.webp",
+      "bytes": 239812,
+      "sha256": "fb8abaaee4a344b97c075e484b47d5cefcafb1e4a9996be041c1d5b9ff928ee7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-i-v2.webp",
+      "bytes": 210028,
+      "sha256": "a10815d1e12a1aca040523ef2ac8422a70671fcaba1b3af7aa383e31a4c4ee63",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-j-v3.webp",
+      "bytes": 238482,
+      "sha256": "4b5622f929f874e73d1b4fafdda05572e5bb8ad3fcc6dfd35b1ecd84ef7f2334",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-black-k-v2.webp",
+      "bytes": 217888,
+      "sha256": "1fc8c768b3d70493c0ba056275d8f77432b9ef53bdae98a420b3ceffd4be07eb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-a-v2.webp",
+      "bytes": 171786,
+      "sha256": "9d4b7535805a16e281acc06f362f674b8909641f9d6ae397e6e644e884262373",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-b-v2.webp",
+      "bytes": 244570,
+      "sha256": "17e3bc89d36511d782cceb1f0e31dff6611b9a1e801f9cb7798e0faf6023ff7c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-c-v2.webp",
+      "bytes": 260074,
+      "sha256": "6dbca3a4eccdbe8ff3917855bf55542aefd3ca081e754f9bf58d4951d2a0603c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-d-v2.webp",
+      "bytes": 209184,
+      "sha256": "80468c6f0f5338ea6f9d3b14a8f840df0a08d37d9bedfa79f7bed255c71083e6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-e-v3.webp",
+      "bytes": 210474,
+      "sha256": "139ebab6165718d9222c3cf13683fa936b382b9c6ba56da7eb5b52a3afd18eda",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-f-v2.webp",
+      "bytes": 225534,
+      "sha256": "878cf08d7d3785d20abd94ee0e22b6d090a5b10bf6f70314d5f1e2e76519b865",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-g-v4.webp",
+      "bytes": 251406,
+      "sha256": "b3afaa01d5deac129ed117c230041c2bcac048064b5dc6f0d7ce792c88d22255",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-h-v2.webp",
+      "bytes": 227458,
+      "sha256": "ff4d37eeefa182d593ad9947b914425d7c856ddc2af0c88fc66cc158c8d09e9e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-i-v2.webp",
+      "bytes": 225794,
+      "sha256": "ca4d874758700f301856880fb4f7dd007327078fd5b38ffa13688917c77a9260",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-j-v3.webp",
+      "bytes": 276346,
+      "sha256": "e16ff9583db26c695635506b3f7bed475f45ddb15e3edca893a4b4c2e8433cf4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-blonde-k-v2.webp",
+      "bytes": 228534,
+      "sha256": "f41d08a8d9cf32b410cf9b35c606d8f01523ebfeac7c440b7e18461fee2dbbe5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-a-v1.webp",
+      "bytes": 215104,
+      "sha256": "b35955beaeeea28b35e4bf2aee2206cd4bd13855024c8dfeb107a4f83a5f0da3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-b-v1.webp",
+      "bytes": 240076,
+      "sha256": "e762d69ac1d4a564ee0e921948b39f0dca99df64745a6599d2b49547995b3c4c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-c-v1.webp",
+      "bytes": 241156,
+      "sha256": "637b4219cc89f80f1d8a81261360f80485519ef286bed56d9aa7c7c2b8a301a2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-d-v1.webp",
+      "bytes": 208296,
+      "sha256": "f573d2899b1bf54e6246784684c07135206bc30c624496596c85d9afe2ecd1b1",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-e-v1.webp",
+      "bytes": 221996,
+      "sha256": "80a706da2a5c14f4012aa510ff4813c089bf0eb2ec63b6c8889a1a7c47525eff",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-f-v1.webp",
+      "bytes": 219252,
+      "sha256": "0114734deba97e4e3a2c509ba4d5225f8d8028369fa7798d2071fc9a68018257",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-g-v2.webp",
+      "bytes": 238976,
+      "sha256": "f74fb08167180103cdc432b274a46fe5bede13bc55cb2ac8c4727211f9bcc30d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-h-v2.webp",
+      "bytes": 234894,
+      "sha256": "9327e112b87fc0628cded9db7a401aa6d5c41ddc4aa9b181434dc6d45ce6796d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-i-v3.webp",
+      "bytes": 208288,
+      "sha256": "6066f9374cd59a1e5200826c75610ddb1509a07fd9a71885f398e87c8dcbe463",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-j-v2.webp",
+      "bytes": 246856,
+      "sha256": "6e4e16d02908f4e1645868da45258ab24658dc1a88ae585c3dba937c8a453044",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-brown-k-v3.webp",
+      "bytes": 197456,
+      "sha256": "2b51e3aeffaac74ae4fa927d1a020e0502e123b4fd78c4d6847ba7b5520e73b4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-a-v1.webp",
+      "bytes": 175944,
+      "sha256": "d13e9d014e79ac864707bfbbd228e2cb85c44a4d3b140907d2efd6ef6e89815c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-b-v2.webp",
+      "bytes": 210724,
+      "sha256": "1057ad18d259089bd3198dc8b5e96e91177953fc3c7d549e13691dfb41b2d354",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-c-v2.webp",
+      "bytes": 253194,
+      "sha256": "b4ade99dbb29be8083bc211fecafd4361e808ba36ee89451ecb151be2044fc71",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-d-v1.webp",
+      "bytes": 224974,
+      "sha256": "075e55bbe2df66bcd17a20dfd513be589bb776c9e75f0ed4717df75e3e242010",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-e-v1.webp",
+      "bytes": 218316,
+      "sha256": "ac9b71164e5918b0104dec893e4aa3194d793c67f7c9e844a29ddee7428e65cd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-f-v2.webp",
+      "bytes": 185556,
+      "sha256": "608ccf05cf5b9a5d11d847bf30dd46df2d275b1f0f89307a587adea4547aa016",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-g-v3.webp",
+      "bytes": 257840,
+      "sha256": "167e1852f24c1e3c50bdb4bd6c70c25ae3822de18001a7280282dbd49ae99eee",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-h-v2.webp",
+      "bytes": 238824,
+      "sha256": "55b9173dc8a2bd64484256a27052f72800a7ba07be7d9d3d23ea746e8c5b5018",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-i-v2.webp",
+      "bytes": 225094,
+      "sha256": "e13af20332f8ff69d8e765906ae59fcd3bc54c360c7033b60fdf60f9d2aa2ddf",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-j-v3.webp",
+      "bytes": 252710,
+      "sha256": "1b2189c9995fc4ef94f3efc5d4a4361fc4b895c41e29329b257e811696cd4736",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/pale-red-k-v3.webp",
+      "bytes": 216660,
+      "sha256": "db69dfc154f412cc65c41c5928280d9cc74fd3e7a12abd15a9720cf4db0926bc",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-a-v1.webp",
+      "bytes": 170262,
+      "sha256": "ef87e35c70408932de2ab9d1114cfdb54c213b8492234b20b81440f2e82b4c60",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-b-v1.webp",
+      "bytes": 235212,
+      "sha256": "2cb3a53b7257a26e0c13f30a832a6b1e00b52227a1af4016bcf10afd92ab0b8c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-c-v1.webp",
+      "bytes": 223746,
+      "sha256": "dd0e0724a02cd494f6853ef33b80a4bf1dfed5a1677e1dd96116dd9cebc112c7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-d-v2.webp",
+      "bytes": 203518,
+      "sha256": "b56ec2d4afda1f59dfeedba40829ad74073aa13b470f0097a22b87532a3bdf11",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-e-v1.webp",
+      "bytes": 201368,
+      "sha256": "b1e4fe1bef211bef16d188e28107474667ef7f6233451932b4af671e5abfcbb7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-f-v2.webp",
+      "bytes": 191366,
+      "sha256": "d45a7899d63a274c310d32229caf222c08ca701622c19b3ea3db5d016d275f31",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-g-v1.webp",
+      "bytes": 258352,
+      "sha256": "446d85ae4eddff118bc99da2b36ae30b01360485a6ed5ef477db039b24ad68df",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-h-v1.webp",
+      "bytes": 231674,
+      "sha256": "ee4db881bad76c6aff70763ed27035d1ee262f52f2e0a67071b1db5bdfcc5b95",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-i-v2.webp",
+      "bytes": 202970,
+      "sha256": "56b0717c007543d6e4aefc30f8027088e77245aa60a938d3afd69848bb830f5c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-j-v2.webp",
+      "bytes": 241940,
+      "sha256": "a58195ddc4c1f2400d608d9039eac51f39b13902bf3ebfe5a44a011c1df39a3e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-bald-k-v1.webp",
+      "bytes": 200510,
+      "sha256": "e41060167200ebcf6b7f6033ec5c876d3dbc8e8dbdac6480fdb5b08a9e5cd672",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-a-v1.webp",
+      "bytes": 180912,
+      "sha256": "a21151dd4a0e1473f4169a606a9d7cfc21fd3e38025d08d3b2489e956ad5b659",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-b-v1.webp",
+      "bytes": 221134,
+      "sha256": "c5ecb02dbe51156e41c3bae9e8113ad33ab18a8c9e7421248d6dde8f94198b57",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-c-v1.webp",
+      "bytes": 258264,
+      "sha256": "2d4455e606332869c98bbc7cc260925707b58ed0a96049366dd693a6c8eec889",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-d-v1.webp",
+      "bytes": 196310,
+      "sha256": "7e6a9e28b0bec427078a565d028b3e12e9912018253c690d99c12391b6cbc6fd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-e-v2.webp",
+      "bytes": 200234,
+      "sha256": "92be30d909732d6b07193e99a8a463d1882e8659b68660af857957de1cf7d638",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-f-v2.webp",
+      "bytes": 209390,
+      "sha256": "8f58c22b5c98b1728d610ab3c42dd3577c13112fdb5575a3d665b4bb255021d9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-g-v1.webp",
+      "bytes": 248320,
+      "sha256": "ba6bd7eb5715c1b69b81ad2c1d43cab8eebbb30982d263d75d3318f5a815cfe9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-h-v1.webp",
+      "bytes": 245538,
+      "sha256": "e86246144ca0a4caa1617f71d0c36d293b36d188a7a7288fd7b038839f8ada39",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-i-v1.webp",
+      "bytes": 210306,
+      "sha256": "3d8b48ce834d7175c8ecbd8d36114b8fefd83f511bfe1d6caa9aa4065e5df670",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-j-v2.webp",
+      "bytes": 248064,
+      "sha256": "a96e57a6f4d2dbd10875d93e28ea5ebbe5c559e8ee834b9ed87839e433c36362",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-black-k-v1.webp",
+      "bytes": 203006,
+      "sha256": "6b3b727b7a03a93d70bbb0574e9de525816561236041aa4496e950d62ee74c58",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-a-v1.webp",
+      "bytes": 167594,
+      "sha256": "2aec4a517d1fb11c6ef964f1fa0a7ebbdcd52d21eb5feba7a0f80b20931608fb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-b-v1.webp",
+      "bytes": 255664,
+      "sha256": "4876bfee3bde2466918e42cbe2a23a3b9b41009303a7fb6e3666c65c2621d047",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-c-v1.webp",
+      "bytes": 265510,
+      "sha256": "3ecaa3a00f6bfb54b0c6be439589ef5bcd55f2baf2e797ad4354101967f901d2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-d-v2.webp",
+      "bytes": 214872,
+      "sha256": "e66cf548240c49d3d6b6a1bda81a7bcaac679272f032091a9da3cde62b689553",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-e-v1.webp",
+      "bytes": 234308,
+      "sha256": "6bb3c27fd500689f1b211d797786b3d3b0a05395d21d1db1ec7d3cfba3e0f945",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-f-v3.webp",
+      "bytes": 219106,
+      "sha256": "95005ae70d83e94544d289f2f48cd983cdf7bb06863116fc2d43a3d2884a8237",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-g-v1.webp",
+      "bytes": 271276,
+      "sha256": "694ad94a696c5fcf6ed570badb50cf5ad30f41cd2947dfcd7aae6097b00db0ce",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-h-v2.webp",
+      "bytes": 228974,
+      "sha256": "963842224ac49ded0042e98c02869e5209dea77651c511af65dda20c4825a352",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-i-v1.webp",
+      "bytes": 220746,
+      "sha256": "dd67805e9f95ae403016e362deb29cfa1343497286a590f3e1b58fbaf56cb141",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-j-v2.webp",
+      "bytes": 250890,
+      "sha256": "f41f01ebc71737cfd68db876912c93dc1f7cb1539d62e70f818510ee9639b794",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-blonde-k-v2.webp",
+      "bytes": 200086,
+      "sha256": "41b9bc97b8027e3cb8821c0d4d27f904139787108233864639be18fe95fa648a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-a-v1.webp",
+      "bytes": 191828,
+      "sha256": "e19c245887cfd1fcb43e7970ea60681471559e1f6abbd56a725f5be952941e31",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-b-v1.webp",
+      "bytes": 230020,
+      "sha256": "c7f2c7e4d04dd0e3028f1018e389bb1add56cdf413a6038d1f4da72a48bc486b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-c-v1.webp",
+      "bytes": 229980,
+      "sha256": "64ac5c6464977e1846419e05973460da565f8ffe5c93ac9218aaeba0f0ec30f7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-d-v2.webp",
+      "bytes": 214408,
+      "sha256": "d3268a05995a447745c92305f12689b43248a979b6bae9fbabdda0bb63f39dbe",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-e-v1.webp",
+      "bytes": 201056,
+      "sha256": "c7cc64bd388d4d68468a6bf86ef44c77d66cc0105893a637fb0f9dbbd13e6d9d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-f-v1.webp",
+      "bytes": 204470,
+      "sha256": "ceb34fc9051151decd6d8859528d04bf36c3bba33cd3288f13dfc019c3d36ced",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-g-v1.webp",
+      "bytes": 275950,
+      "sha256": "a60ad9c44f2a169b4d1cccc30e5f480299becd38a7a56e10c2bc1a2f8563fb10",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-h-v1.webp",
+      "bytes": 235532,
+      "sha256": "fbb0e084cd625a2f2c8e60e3ec430fd4cdbf19b11237471d5b9577fef3050649",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-i-v1.webp",
+      "bytes": 205908,
+      "sha256": "ab7923aef31da34b023d0f06a2f0a048f9f1247c9ade3daeddd3c57090c5e7d4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-j-v2.webp",
+      "bytes": 269334,
+      "sha256": "b019990f80f7b9a223ff6499cf8e39e7c206fa0bd785324aeabc4d9f28223e39",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-brown-k-v1.webp",
+      "bytes": 206636,
+      "sha256": "cf0efeec69083a5c338ddb3a70551b9b81c3fb7d688cc7f64631e13fe418b976",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-a-v2.webp",
+      "bytes": 175048,
+      "sha256": "aa0337bb75ed7bc4f6f97be42761c57e0bc24f92742fc29e3e05f2b589f5a662",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-b-v2.webp",
+      "bytes": 235368,
+      "sha256": "818e6711697e8c46175ea3986a96bbed76550fc1408370571751977753e708eb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-c-v2.webp",
+      "bytes": 238058,
+      "sha256": "6e6b2c1cd4a55fc6bdc1b94390072cac744d21f15e668900f3bb8a3cca70e3d4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-d-v2.webp",
+      "bytes": 217466,
+      "sha256": "444e0e467a9fd5bdbf270ad4bd47183dc4c356aa1f5f75f0ef186dcb59272a1c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-e-v2.webp",
+      "bytes": 219102,
+      "sha256": "dcea2f11398e64ccee1e1fb37d24910855499721ec86d33bd44f03fb9eb215c5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-f-v2.webp",
+      "bytes": 207234,
+      "sha256": "e518c8bd3710d3ff1de421a1dfccd296034b4a315a4b4816caa37168e3a80c95",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-g-v2.webp",
+      "bytes": 249936,
+      "sha256": "a23ac7387ba026ecf57cf14a8dd8c9fa055458a5499fd022a189e18494e47493",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-h-v2.webp",
+      "bytes": 232816,
+      "sha256": "b7a4c503e9a10a4d55989a86c8858b3a203d770e2e2e23975d75c06d3d9249bb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-i-v2.webp",
+      "bytes": 228666,
+      "sha256": "9d67c15d4062185cc0bb5c31a88e7223e0f16c53febce61ff564686ee8b4ef6a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-j-v2.webp",
+      "bytes": 267664,
+      "sha256": "a3ab0e020e11ca293ce8710306fd18aa5f45ea801f6631fe9a1ad38308bba629",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wardrobe/tan-red-k-v2.webp",
+      "bytes": 221952,
+      "sha256": "6fcd6609f99a79a6e976162916aeac5fe36e4530bdc0b319764adecf04e807c6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/wireframe-female.png",
+      "bytes": 712092,
+      "sha256": "9d398903ae771eabb2b0e6eec8c31a150814e0d972745ced0c10f0302a6b9838",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/wireframe-male.png",
+      "bytes": 724199,
+      "sha256": "35a06272e44c40c4d2b019896d34b8e54b6fc5219b718c0ed7b83e5ef39cb86e",
+      "referenced_by": [
+        "identity.js"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-black-skirt.webp",
+      "bytes": 47084,
+      "sha256": "cd520f128915748c99efe37bf348e9420249a3e981ecfbd2693ea10e299152bb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-black-trouser.webp",
+      "bytes": 43798,
+      "sha256": "8baae0e3d48f52388d589165164d190f4d5ccc99ffbe2be0c94a1e4348d7a8ce",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-blonde-skirt.webp",
+      "bytes": 50180,
+      "sha256": "33b3e96f1b4560201bcb194360c8f7bf135a5d28eeb9f0fc18810df2361d19a1",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-blonde-trouser.webp",
+      "bytes": 45912,
+      "sha256": "2c02c78118aafff2f40e80d95fd237c5842a0241b75b4e73fd4b37869f2e148d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-brown-skirt.webp",
+      "bytes": 48422,
+      "sha256": "067abbd98e91edb599f53db08bb01690d6753404c5427b4a1cb597166fe348ad",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-brown-trouser.webp",
+      "bytes": 45338,
+      "sha256": "4aced2d335a258daae0250eb85afb812e3649958ae60bfff81bcf7c22eea5567",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-red-skirt.webp",
+      "bytes": 49374,
+      "sha256": "8533c666db2cd16fbe9a438bd32e2772d208dd78defe0894cf57a4ed3b034d64",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-deep-red-trouser.webp",
+      "bytes": 46804,
+      "sha256": "48f75e60cfe411243d9cb27fae540b9ec22c8994ae7087eb784216eea0ed2992",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-black-skirt.webp",
+      "bytes": 42982,
+      "sha256": "6ecdd6769f6b760884cb15903f77deed2afef83249595b6a1bad59f436acf95a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-black-trouser.webp",
+      "bytes": 36782,
+      "sha256": "676153bf014a0cfd9db928db65b28f113f4b6eb100ffca1ca0de91dd7717936b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-blonde-skirt.webp",
+      "bytes": 49062,
+      "sha256": "1b80e5c823fd7d25b1505c9c250b43d2cc87ef00b878cdf5462cff5aed92efaa",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-blonde-trouser.webp",
+      "bytes": 44566,
+      "sha256": "e69cd945314f22298f23855ca8ea4533cc9f3659ee6dfeead9da7346b1cecbd0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-brown-skirt.webp",
+      "bytes": 46734,
+      "sha256": "88a95ebb4beea59762177225ddd1d03edfb3309074b2dc8b0ba80825b494b820",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-brown-trouser.webp",
+      "bytes": 43806,
+      "sha256": "fedb5abdc8920114417612132284680b3fad1fa53a0007f03b390127985d9858",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-red-skirt.webp",
+      "bytes": 46024,
+      "sha256": "5cd9c62069677df8e75a02592e02e553132468218ba73c1391226c6ca35834c2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-light-red-trouser.webp",
+      "bytes": 40956,
+      "sha256": "2e8b02da97224fe9b6eba093c831e0a2d23607a1d260e0f95e400a27bf3748fb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-black-skirt.webp",
+      "bytes": 44816,
+      "sha256": "dfbd161a7f11e8f777228277805eceaaaf9c82adb8b7546d0caa49d3fc559aec",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-black-trouser.webp",
+      "bytes": 42428,
+      "sha256": "ae2c013ff0d082f5d7152438ee06a6de28a1d5deb88bbf99ccf2a09b41c2f047",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-blonde-skirt.webp",
+      "bytes": 49388,
+      "sha256": "d0f47e0bcd480c03da1446aa4478e184890bf5e960d5d1e44fbdecc018d0c8b8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-blonde-trouser.webp",
+      "bytes": 45728,
+      "sha256": "a34d2d1a7f1c75af7a565da263fe2cf8da6b744f39d194b99df0fc34a6936107",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-brown-skirt.webp",
+      "bytes": 47320,
+      "sha256": "a4ec6b99018285e60350ef59454d03855d71183b00af1f32c0307a06266c0d53",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-brown-trouser.webp",
+      "bytes": 45254,
+      "sha256": "9694168929275d48686e02769a6ed47f2f37dadee2d35bbd1786bcbc1571b770",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-red-skirt.webp",
+      "bytes": 47762,
+      "sha256": "ae173749ea4352ca5f256cf8a0a1b849e7f1f019b69410974c2aded0027347c3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-agents-approved/agent-woman-medium-red-trouser.webp",
+      "bytes": 44724,
+      "sha256": "50bce43b077953a7e16dc396c62e36f04abafd49f24d6dbed2a106251479adc4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/A-medium-blonde.webp",
+      "bytes": 149920,
+      "sha256": "7c64aa0bcd2c9da6a8ba8a2bbf5a983335e732f23566fd5654d934da7ebe2b4e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/A-medium-brown.webp",
+      "bytes": 151934,
+      "sha256": "a64a82f9853e2dd4d0fc8fbabd6c7e9251d024bd0a7cd49260a08ff70930e4e5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/C-deep-black.webp",
+      "bytes": 183368,
+      "sha256": "d43bf07773c0c9a6ca70869dcd874d81a844d4d17d344b47ae202a87b5c702f2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/C-deep-blonde.webp",
+      "bytes": 185868,
+      "sha256": "838c38f8ea99341778beba7890e293e83b2ae50625240bebd91feb06a623775c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/C-deep-brown.webp",
+      "bytes": 172448,
+      "sha256": "92704eac77abeaa015d4ed7fd001be8a66e13807ce2d24a8376ee620be6865d7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/C-deep-red.webp",
+      "bytes": 174388,
+      "sha256": "3209a8d6d55a0ccc103ab280ba4e3d6524d709f93e6cbb4ac268e294271b4df0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/C-medium-blonde.webp",
+      "bytes": 177272,
+      "sha256": "264fddb9aecda6eb936d58c5095dd5078752bc8c99fefda366579eb8252b87d4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/C-medium-red.webp",
+      "bytes": 171420,
+      "sha256": "796dceff3f94274a263ad875ede824f3131f3e40e894d3cca3f773bf2f4f5103",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-deep-black.webp",
+      "bytes": 132834,
+      "sha256": "36faf4253b7db061af3038379986f0a1342a79482ec86d520e30bcdf90c38d62",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-deep-blonde.webp",
+      "bytes": 139378,
+      "sha256": "094b7ae15d9b7b871658bc35fb76ccc221c1d34b7fcdaa011e6fda930664c54b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-deep-brown.webp",
+      "bytes": 128564,
+      "sha256": "6221843b6b1fd534749c2cf20ae994520b7ba70ae121f3d85603ae7e2b772e69",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-deep-red.webp",
+      "bytes": 137194,
+      "sha256": "5c48eb7bdbb543c3488f339bc69dd28e7cb464e70bea50c5842f10c64db2c141",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-medium-black.webp",
+      "bytes": 127802,
+      "sha256": "2c5a596a5d52fc9a0d401d386896262d7e223453ddee9716d26734178cc03d68",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-medium-blonde.webp",
+      "bytes": 136090,
+      "sha256": "2295109c98ff895ccfbabb369580cb94e6375b412d20461e2bd6a64159eff088",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/E-medium-red.webp",
+      "bytes": 133610,
+      "sha256": "6d1762726d51b4e2842f4837512fde1473e9b1c64d6f6ddd1700e1839e8f5676",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-deep-black.webp",
+      "bytes": 156116,
+      "sha256": "956a0566f10e6564685238ff9764821adae526c8dc1620cd8040c3d1f3e9af5c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-deep-blonde.webp",
+      "bytes": 156086,
+      "sha256": "65868405007bfef46cb634378e0af10b401f064b5438c1b074e5218189635c70",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-deep-brown.webp",
+      "bytes": 146076,
+      "sha256": "9f99b7bc610397649b3109f06f527da36f10ec84595d7c0073e0f6ac3e228be5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-deep-red.webp",
+      "bytes": 163542,
+      "sha256": "d456311eeb22284755a57d5a192f949a758c614d84fda2d5e39b3dd446f07347",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-medium-black.webp",
+      "bytes": 149292,
+      "sha256": "9f768077deb6132270f7ca03175b2975d4f145408b038c0234803453beed4422",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-medium-blonde.webp",
+      "bytes": 153092,
+      "sha256": "a16570a816cda3f0d69c3e8ca5869663f3d82ad3a2f0244183b8760403f03ef2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/F-medium-red.webp",
+      "bytes": 155126,
+      "sha256": "e38e227eaa9becbbf51b98dea086dac08f6473741def76b2e630288f294a2ada",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/H-deep-black.webp",
+      "bytes": 131970,
+      "sha256": "8dbe3beaea9b8a070c1d1a201bf0dcdc66bd660ef576de021cd4bfb24547e949",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/H-deep-blonde.webp",
+      "bytes": 144704,
+      "sha256": "b2d03ed3b1e056e1b51204fd839e8419f05a9f63dd1e1371179c009357cdb190",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/H-deep-brown.webp",
+      "bytes": 134112,
+      "sha256": "5eaefe53f6a9fb70d219526f3df4d004600403b6db6129b398fe16327704e5e3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/H-deep-red.webp",
+      "bytes": 142802,
+      "sha256": "fba9a6b74b2db763d38416860363d5b7f51e24a41ae04595145821a9310c4125",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/H-medium-blonde.webp",
+      "bytes": 135128,
+      "sha256": "5219dac08a2fb09ce1f0390061e9ae9aefd08d7412a76e26d4692eabf5fe7762",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/H-medium-red.webp",
+      "bytes": 134518,
+      "sha256": "d118f80145e82d6afda9ab61bc9108ee336d43d32a0b06f5124f80eeadf30dd0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-deep-black.webp",
+      "bytes": 147198,
+      "sha256": "317b48f6f20d778ccbb46be5538746120138b2070e306991209e71b8ee0ef893",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-deep-blonde.webp",
+      "bytes": 159812,
+      "sha256": "b9a4af9a62620c65bf819b2cb59a7afa7889c79df186debf3b27922b4844ec22",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-deep-brown.webp",
+      "bytes": 157872,
+      "sha256": "41e4a8876ee8ffa5a350fd1e2156e332bdfbd39d05e08686a0dda56dcf70dbd8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-deep-red.webp",
+      "bytes": 154560,
+      "sha256": "f6816ade0274040fad7c4d338c7649119eb4ba9fdcf6eea69bdf1e7d219953eb",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-medium-blonde.webp",
+      "bytes": 157898,
+      "sha256": "4d71b5f082001b11e062c61c283071c1c5192bcb42f6526ae8880af824fd6135",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-medium-brown.webp",
+      "bytes": 161728,
+      "sha256": "5002622b119bc56f57809d797e324a208644e74de54ceb2e13f14b27132044de",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/I-medium-red.webp",
+      "bytes": 153316,
+      "sha256": "ed870772eefc061b3fd0bef82511035a4105fd9c8e4e93f37f32a90f2685c4b7",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-deep-black.webp",
+      "bytes": 152820,
+      "sha256": "2c55e8f89a3d5acc5fc3eb389ff09fdb5e85de3ebf1c8b78444eadf42181638c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-deep-blonde.webp",
+      "bytes": 166584,
+      "sha256": "d4e3c7f21f65640176d6ce5af1d72d5cb70db331811395a5688949ebbee6ee8e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-deep-brown.webp",
+      "bytes": 162618,
+      "sha256": "df974e74f26499a9fd036b21e103845ed932355469a12d5f6003c171c6f4b72d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-deep-red.webp",
+      "bytes": 157808,
+      "sha256": "e615cf13c29e3f0e012e6dd67b7ea743ed3f0d3245defc4ff5e4171777b9ba99",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-medium-blonde.webp",
+      "bytes": 161320,
+      "sha256": "fd638e052d65b440b4c9a0c088181cc9f44fe73b1d9397801e52cd82bf3afe18",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-medium-brown.webp",
+      "bytes": 154108,
+      "sha256": "808734838ad26decb90010f16988ea175bd28325ee8881bb1a838e257d864c6a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/J-medium-red.webp",
+      "bytes": 163070,
+      "sha256": "1709ecd767676c7b461cc3f7dd88cf254e666b8496072076d24fae905617a26b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-deep-black.webp",
+      "bytes": 143754,
+      "sha256": "c90065ebc3fba7aa597205d4f9183f460686da2ddf5c6f4b4c910613c80ab250",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-deep-blonde.webp",
+      "bytes": 155672,
+      "sha256": "135850901325e8ff533e317a420dfbff38fe4ef97f5eb9ecc68348255b3c090e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-deep-brown.webp",
+      "bytes": 146382,
+      "sha256": "e9a2bbfb6191b6bcc46b9637bf6e40d709ecb7675c104f4e130ef3ee1feb0837",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-deep-red.webp",
+      "bytes": 147004,
+      "sha256": "af4c590e7e2b71190804402971cd9eb07aa48ab619b7461dc12e5b88fa41a73e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-medium-blonde.webp",
+      "bytes": 143118,
+      "sha256": "9f80334a8783519d3c563db6729bb6e49220c320b836b377cff628d72de2801c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-medium-brown.webp",
+      "bytes": 141598,
+      "sha256": "fde26d49c1d7aaa58548b9a972b304aa85f1c84755757247568627d1cb2b3936",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/K-medium-red.webp",
+      "bytes": 148376,
+      "sha256": "91273e3367bb7a2c81e79c6fc33db6cde6bec6558b63e56a19c5e90f90dd3319",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-deep-black.webp",
+      "bytes": 150230,
+      "sha256": "bb02c0cde03112b216c3ba6cc2a50f53c7c29d523d64df55606b4d1d21d16902",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-deep-blonde.webp",
+      "bytes": 147206,
+      "sha256": "9572718deb42b3ac827e6d50721c1beae96a6c0e2c9a8fce3014838252c8d1cc",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-deep-brown.webp",
+      "bytes": 137904,
+      "sha256": "9cf2961be5134ce3cef18eff877509349c2afe4411ea05ebe3bbbd2acd997f34",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-deep-red.webp",
+      "bytes": 146848,
+      "sha256": "71256a8e8d00c0e136be7b025cabafc443fe8c499199b76a0aec05282b5b5ae0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-medium-blonde.webp",
+      "bytes": 157430,
+      "sha256": "f5754f53690752ae9e6945026fb3229c65baa8c90ac4bc5dc036def34373ba62",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-medium-brown.webp",
+      "bytes": 154076,
+      "sha256": "9bbabd6ebd480e27e50f90bfdd48cbc1e72983fddbc6e6a0b26eb8ae96ee7351",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/L-medium-red.webp",
+      "bytes": 153886,
+      "sha256": "95b5035fa69239f1b00b078c8d8c607387971d5be065e2629ea57d196a6086df",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-deep-black.webp",
+      "bytes": 125208,
+      "sha256": "6cb49564734202d78370283efc5358e3f5b4c3a61ec57d0c8c63d541233d9ab6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-deep-blonde.webp",
+      "bytes": 128058,
+      "sha256": "a01d046fa389f470aab0cd45d0a219fb509ad2df3852feecc37b0e7196392cf3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-deep-brown.webp",
+      "bytes": 141078,
+      "sha256": "56111fcffc1ade22d179c9d4c1bfa431e8d50551550edfe91c81a4d6643def85",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-deep-red.webp",
+      "bytes": 130694,
+      "sha256": "8a7862615ee66a2e5a03edc60928a6cf83171803a09ea160b61928ec6f38d901",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-medium-blonde.webp",
+      "bytes": 133676,
+      "sha256": "8f2e8595e96ff6c1bb95212248ddfda7d1c5a2c073e3070440b8b3d10f40d9d4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-medium-brown.webp",
+      "bytes": 139528,
+      "sha256": "9d33bffdd3c094a3f165cd6525747fa518a7af52f0c20c4f1baf3177de061b9d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/M-medium-red.webp",
+      "bytes": 135718,
+      "sha256": "711e58aec55afcd3a5d7ac912a12412a598e6d57a270c19f1b95ff7545535c56",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-deep-black.webp",
+      "bytes": 130264,
+      "sha256": "65f6081739bab3d60c6b3a96183fcb0f26ac60acf861de68bb1e687d2c52ed71",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-deep-blonde.webp",
+      "bytes": 134842,
+      "sha256": "74ab5f3e10266435f3b2277ba81430e6963b1777a47337636d043aca5b509592",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-deep-brown.webp",
+      "bytes": 134960,
+      "sha256": "2f902a3954e8394506588c6e923ea967bafa5bfc66c29f4a5ff62d5a221842a0",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-deep-red.webp",
+      "bytes": 154214,
+      "sha256": "0290918ccb2e02a60862d86fbd4859daba4c37a1c27b210d31b3f8a9bb83da86",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-medium-black.webp",
+      "bytes": 129808,
+      "sha256": "137d666858590051697bde581b220d4d88c4afc164e19af4f77d25ce1d150301",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-medium-blonde.webp",
+      "bytes": 130668,
+      "sha256": "f5c0f1ad4719e5f1f763da6a453732eccc002b1ddc564231cb02a4a2f41b1e6d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-medium-brown.webp",
+      "bytes": 137200,
+      "sha256": "2bdf21b9a6e185c07dea2c04df0834e95efbe7a97ab060d8ae6d23a681a2c0a5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-medium-red.webp",
+      "bytes": 136430,
+      "sha256": "6a70a27de4619f48c4959fd39f7ad2f3af64d7fbb0d703107893551ff57e7f05",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/O-pale-red.webp",
+      "bytes": 129934,
+      "sha256": "dbcc85021ba581d3b94ebd105e9c14920760bd8d94807d7671b6f776980fb641",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-deep-black.webp",
+      "bytes": 153506,
+      "sha256": "66f74ec9c68ffd3bb3a9fe63be6b16dd82411f0336866e4731c61edfd02576f6",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-deep-blonde.webp",
+      "bytes": 155194,
+      "sha256": "4eb6a67f24717d244f5d2780244a0ed894bbf258a462142ae05d755026b8c29b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-deep-brown.webp",
+      "bytes": 147794,
+      "sha256": "e03e81a7b07b01f9fd85a4288f839fec60ef4a9111ceb7067510ae4746958225",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-deep-red.webp",
+      "bytes": 152740,
+      "sha256": "697aef646abdea48d388a8ca4589f19452a369b4cbad0e3d62199d8717450307",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-light-black.webp",
+      "bytes": 143118,
+      "sha256": "e312bc93946ad2bd3a902c005a1d72d018ef556a88c95d6cb17464d096ab1cba",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-light-blonde.webp",
+      "bytes": 137748,
+      "sha256": "6e605ba61bc3b49a5d901fc6c5f0d3c4f704ebe877c27e48e006eb6a8ca09a39",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-light-brown.webp",
+      "bytes": 138720,
+      "sha256": "7b2058e40e32ebe6a3a095632891adf1d1a2f29543414c6e26211279f7cdc923",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-light-red.webp",
+      "bytes": 142090,
+      "sha256": "0a1bef2a6c033381abb5f3747edbf0f21fba1a756a0f4c1aedba2544b1135176",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-medium-black.webp",
+      "bytes": 139386,
+      "sha256": "0e1377d35df7c9bdc50d138af522bd77a4efafd0793c18c79f5a308eeda831d3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-medium-blonde.webp",
+      "bytes": 143920,
+      "sha256": "fe91736dbc1288c177eb05bb0db51b589b8079c117697c9214305f4715c4d042",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-medium-brown.webp",
+      "bytes": 147170,
+      "sha256": "cfcce4ccbaacf37ac0ac4d14b518ed248503ff6e654f26d074d0b1c8f4324b97",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women-new/red-dress-medium-red.webp",
+      "bytes": 145726,
+      "sha256": "6ca0a42418cd7856041fbf1ea70dddfb603e0a22b30fc7485e1aa1cbacf04887",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-deep-black.webp",
+      "bytes": 159122,
+      "sha256": "8a0db47d68d32689d3da8349fbd074b63ead08df4bfae88ef215fc5762c08e3f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-deep-blonde.webp",
+      "bytes": 164086,
+      "sha256": "0878066566c403bf046f93046e169ccdbd187feb1e56efb6a1adfbae5861a174",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-deep-brown.webp",
+      "bytes": 157896,
+      "sha256": "1a02a7a887d436a0fa3b982f73088e38fa62f70dea6e33d4a2c6e669b53a1b30",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-deep-red.webp",
+      "bytes": 169948,
+      "sha256": "5e970835e314241506e0a3019f877bd22c3ef15d77a07d249aafcebc59c38ffd",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-medium-black.webp",
+      "bytes": 166236,
+      "sha256": "1e7080f4a4938acfe92e76d42e86ea84591ef28a6ec8745465cf1d7d273c269e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-medium-red.webp",
+      "bytes": 165160,
+      "sha256": "4c9191b24167b4d105d8bec687fffd668fab5e0bb13b111cdd43759b4eae2686",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-pale-black.webp",
+      "bytes": 161822,
+      "sha256": "3b22a1cf50eb8151ff284792def0a20f4cf30a97cb5181d396d5bd0a95a42885",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-pale-blonde.webp",
+      "bytes": 159442,
+      "sha256": "84a0d7676d46b3c7f56eecc80b27e8465c114e26aab8d7d9085ff62e88e44668",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-pale-brown.webp",
+      "bytes": 174768,
+      "sha256": "7b1c55b46229a92a6c485b69462e6813c47e54588db17eaed5b6c6b2c6f8dce5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/A-pale-red.webp",
+      "bytes": 161104,
+      "sha256": "772993e1fd8dcd613641ecb2ab2eba3c9f6eb1695f6d368445b1cf8677dce478",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-deep-black.webp",
+      "bytes": 154128,
+      "sha256": "9be1d866190948c258723a9334a0e7a204d3506f8bc798c0e1a1b6c8c24d10a5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-deep-blonde.webp",
+      "bytes": 161360,
+      "sha256": "471e6cf47c849883d4992594e820a659426087c5602f95b5ca5b6dc57c68c815",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-deep-brown.webp",
+      "bytes": 163824,
+      "sha256": "bc4a9f029737069fdf49022fa6e2b1ba150df7385f3209e08b2578a558363fd1",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-deep-red.webp",
+      "bytes": 158846,
+      "sha256": "1b14af067fcc33d4c447c5dffacc07c5f2bcbcdfeaca553b048889557ef22ede",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-medium-black.webp",
+      "bytes": 159074,
+      "sha256": "7bdc1b3316f2dfe5fb45a733d7bd135d0572a2992eb2f419d519f889f3ef6e93",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-medium-blonde.webp",
+      "bytes": 165780,
+      "sha256": "0b122e67e63d3697110b204e13e44c55d9051a752893d300b88ada036bfb6056",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-medium-brown.webp",
+      "bytes": 168574,
+      "sha256": "00e264bc1541be3097a73953a9e1ae67317f773fe6b5c8e48959533edb47a80e",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-medium-red.webp",
+      "bytes": 156936,
+      "sha256": "ad6a3dc46acb9a52fa1b0891c1698274eecb171cfd521683b98fe57dbd39688f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-pale-black.webp",
+      "bytes": 161962,
+      "sha256": "2f01d35d92148d8aef80cc90315a8b58bff9512a63638c1eb93f4fea568bb94f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-pale-blonde.webp",
+      "bytes": 157562,
+      "sha256": "c89b60e0e6f0b145868d33b3030da4eff90664f0e723044577a00ae667a7b42f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-pale-brown.webp",
+      "bytes": 169640,
+      "sha256": "c3fab80705f552e2a9311badef0b0404e122624dbeb35e0e298ba5cbf3175a78",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/B-pale-red.webp",
+      "bytes": 165878,
+      "sha256": "eeef9dd9c6c64ff9303365e8801f54a7f8192dda6359dc734dcaf3f9a77c9bee",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/C-medium-black.webp",
+      "bytes": 195404,
+      "sha256": "39f8f319cfc8600068b6af170534924d4313ff700772e5319fc1d13d5d7a780b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/C-medium-brown.webp",
+      "bytes": 195842,
+      "sha256": "92e2ad46ed52045592c45876f38314bb998e130685e41c3ed55ef003be9bc4c9",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/C-pale-black.webp",
+      "bytes": 206522,
+      "sha256": "afb6b6c3275fe8bb366a90c605da87301ead35d82c3a6b7d58aea56313f7a7a5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/C-pale-blonde.webp",
+      "bytes": 211076,
+      "sha256": "11c6d5eb5357851d212adc9eaefa961c2e3a6d6a3c45794b3c77723c140a99e4",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/C-pale-brown.webp",
+      "bytes": 228632,
+      "sha256": "fb12ffb0b9b4cade0164f0d222091d2e32570550804c84a591b90700580ed19f",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/C-pale-red.webp",
+      "bytes": 196130,
+      "sha256": "35aec4089b2b623c7e01a32652e7b24ebd1abde0915aff83ac398f7481ba95fc",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/E-medium-brown.webp",
+      "bytes": 152872,
+      "sha256": "b3f6dd6ecee6b4c3a4e3fb9eb44870ab1b2b3eabd662755cfb8753810e2ab882",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/E-pale-black.webp",
+      "bytes": 164502,
+      "sha256": "693d3157dbb1cde8f4d333bacd34edc4a4399a7343c44ce55d9dbc644c9840d8",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/E-pale-blonde.webp",
+      "bytes": 169548,
+      "sha256": "f9a4ea9e392afb6ae10ce6297df1d3cdc277d2bd41f1d4b2b05965c85b4680aa",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/E-pale-brown.webp",
+      "bytes": 148998,
+      "sha256": "f6ac1f3c06f0a491b1cbad6b796a56ce2721c4fc3fb9b00b914e32f8b73b6201",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/E-pale-red.webp",
+      "bytes": 155276,
+      "sha256": "f6f33583e2a0dfb4384fdee6bf5cb30c02b720c860cf467d85d410dbd1b3deff",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/F-medium-brown.webp",
+      "bytes": 174362,
+      "sha256": "5a5d7f4da1d5f3e05064e8d0d29ebabb360f0538ebd4b50b007ac4af24f294b3",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/F-pale-black.webp",
+      "bytes": 167266,
+      "sha256": "5ca359cea02c832f724973b337d42ee096957ae4f53fd2ad1f39a7f0fe9aa877",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/F-pale-blonde.webp",
+      "bytes": 180160,
+      "sha256": "cdd919225c4fc4286aac4660f7bef65b9786ae6d99d4a45016a6c9a85978784d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/F-pale-brown.webp",
+      "bytes": 197082,
+      "sha256": "636a481c197de8085164c21171777be6cafd1f79d446094408ff562e3b7a77a2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/F-pale-red.webp",
+      "bytes": 179568,
+      "sha256": "aca564029a452efd792a6c840019dbc33369ac73d5b0f6e7f7b7357cbbeeff77",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/H-medium-black.webp",
+      "bytes": 147688,
+      "sha256": "d00884e502695ae5f72ad3c0b5735ec76a28d4819fb868b318f29840d7ee7b7c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/H-medium-brown.webp",
+      "bytes": 155634,
+      "sha256": "c0efd0ef8bdfa5a36d756bc3b71ce1f203359c04a036e5ca52e4f1c50ffc2378",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/H-pale-black.webp",
+      "bytes": 158768,
+      "sha256": "c239711b95e163b2245410b6b31b97482d6591cd910eaac4703b022807136400",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/H-pale-blonde.webp",
+      "bytes": 149092,
+      "sha256": "ea39cfc26130902b03ef6c408acae4c6ab0fdba93b33e22a8f5b07ad73ddac04",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/H-pale-brown.webp",
+      "bytes": 150768,
+      "sha256": "1701fa9590df8962f35e3421de328788563f0e04cd339afc594f908a7b091f8d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/H-pale-red.webp",
+      "bytes": 146960,
+      "sha256": "419561f405c7f856786512be957eead482025f47fddbabcc953bc472d2d3951d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/I-medium-black.webp",
+      "bytes": 171616,
+      "sha256": "49aca80821185c4f06c1eae5be37337a7fea58dceb559c1b9b532f69cd063dbe",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/I-pale-black.webp",
+      "bytes": 174066,
+      "sha256": "37d3b024c604fa6f042bad82d0769957dbad3de521538bff0e3f384a0d4e5619",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/I-pale-blonde.webp",
+      "bytes": 172784,
+      "sha256": "dd0d9dbc67bd6116ffe613cb7e1d0bce17ff64e8d5402778dc2f5eb4951b3334",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/I-pale-brown.webp",
+      "bytes": 184198,
+      "sha256": "accf820791ddc7f3f20bb00e1ffa44e091da14ce628ccad079df9d604a584b0d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/I-pale-red.webp",
+      "bytes": 180166,
+      "sha256": "6da076a26d392b9c1d616f98629b242d905200bf9ecbc93b1f65a5f0ea009fbf",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/J-medium-black.webp",
+      "bytes": 170798,
+      "sha256": "a23fba9de5d702fff266840e2f665813b7e6291f425c3576a37d9249f4e65fc2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/J-pale-black.webp",
+      "bytes": 171078,
+      "sha256": "a07e772c0f96379b5b92241179274f385dbbf079d63fdb238a577d2403379b7a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/J-pale-blonde.webp",
+      "bytes": 176366,
+      "sha256": "9d92ae6d0e346546d0d407bf6296f530924dbe4376ac01593d863046c28053df",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/J-pale-brown.webp",
+      "bytes": 179274,
+      "sha256": "6018c8d1945c7c7bd69b4eb302e99613d5fd60ee921231d17ccb215fa7c2d892",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/J-pale-red.webp",
+      "bytes": 170436,
+      "sha256": "d02b7add5aad2d5f0ad888c211f10997cb1ca85486b6fc27489a2f58468b173d",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/K-medium-black.webp",
+      "bytes": 152516,
+      "sha256": "e060510e2fd5a7d8f98f010a16ebbce0bc190dc933ca5d719a43a5e9726b8356",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/K-pale-black.webp",
+      "bytes": 147522,
+      "sha256": "741d1ddf9e3fc508b892a15d911cd289d33b4f4dcf74ea572fdeedbe91d21728",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/K-pale-blonde.webp",
+      "bytes": 160790,
+      "sha256": "d8cbe1276a2d9cc5e63898c1e9d77d0f52ea21326bf9f5a963c73d8e657308a2",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/K-pale-brown.webp",
+      "bytes": 153270,
+      "sha256": "7855e2c51e2824900227e537fcadf98f7f1bcaba98bfa2da6fb048dbdb315877",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/K-pale-red.webp",
+      "bytes": 147928,
+      "sha256": "ade17c6f800cac56e74f9c7e065fdc5898f5fd9c6b3438242d206114d67a12ed",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/L-medium-black.webp",
+      "bytes": 166740,
+      "sha256": "46df391d2cd26971c3f3faaca7f76775b181a1b06bf3a4d45dc90d993f7a0032",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/L-pale-black.webp",
+      "bytes": 156268,
+      "sha256": "d07c1e05b8caaf4e579810ab90f82e80c7b30493d080616e4978f3ee335b5d5c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/L-pale-blonde.webp",
+      "bytes": 161252,
+      "sha256": "9375d5c0f52a905e313e13f76242a224195a2db7dcf7771f2e7e2f052fa78c7b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/L-pale-brown.webp",
+      "bytes": 154318,
+      "sha256": "74e56fd0cf86fa4010d100212804f6ef789c42fdf0eea2238f3c96705e2eb504",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/L-pale-red.webp",
+      "bytes": 162960,
+      "sha256": "18b1c113b2bd3397b8b471da6873b4bc1649dd7670db52b734c06c2184a3e65c",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/M-medium-black.webp",
+      "bytes": 138882,
+      "sha256": "91c7a0e76770362edf0c75bf9c6add4bcb6d03c9ffae5612c85389a7d39cce21",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/M-pale-black.webp",
+      "bytes": 143254,
+      "sha256": "faef70886a138c4821d9344d61f336ccc567c8828a2865191f807c6ecfa7d39a",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/M-pale-blonde.webp",
+      "bytes": 139726,
+      "sha256": "b283f2d44257f77a892e0a01f289d569fa76c3770e6ea0827d00e839ecaa5026",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/M-pale-brown.webp",
+      "bytes": 150528,
+      "sha256": "4a41cc413503711060e75481c28ee3112d0142c02140b639869951166038f3a5",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/M-pale-red.webp",
+      "bytes": 132412,
+      "sha256": "33100b84e99f34eb3bcbf0dd141e4e2949c56d085811d46ad47a91003a958d66",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/O-pale-black.webp",
+      "bytes": 145666,
+      "sha256": "f7675ff037c3c9a679f83cb31fc6ef36c5e415507a099bd51a0719a6a48057fa",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/O-pale-blonde.webp",
+      "bytes": 149230,
+      "sha256": "e349c2ae191b31f5b8996936650a730be4f1ab9abae9d0f0ada7adecf5e1a71b",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "assets/women/O-pale-brown.webp",
+      "bytes": 148338,
+      "sha256": "d214d0f1b2f94bb7d39600077d68c4f187034430893442da25963f4adf9478fe",
+      "referenced_by": [
+        "assets/selector-characters.json"
+      ]
+    },
+    {
+      "path": "crt-letter-portal.js",
+      "bytes": 3120,
+      "sha256": "448ef1feb44c22f77659bff554da699319c12067b50864419a548645e4094ba7",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "final-character-code.js",
+      "bytes": 5215,
+      "sha256": "94edbb9b9cf041badc6189d3ee8ee983cffe8daa378234ecf3402174506da8cc",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "identity.css",
+      "bytes": 76200,
+      "sha256": "62ac496752bab5b01735d503665dde0e6f9d41b7b045afc22ef594a4e022620e",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "identity.js",
+      "bytes": 41699,
+      "sha256": "73ed2be80af81510e486cf5d19654ede6072ca38bf4e36a6dcec740cffbd7575",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "index.html",
+      "bytes": 45601,
+      "sha256": "9d361ea1628b5206c1648d7bf2f48a8050be2003d3174c02eb61d37422f3e472",
+      "referenced_by": [
+        "Preserve existing HTML route"
+      ]
+    },
+    {
+      "path": "invitation.css",
+      "bytes": 34300,
+      "sha256": "53df3323b6c7a3e9f70e8283a25bf86d09206b94153b84e2c2f95909dcab1bb8",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "invite-signal.js",
+      "bytes": 2347,
+      "sha256": "09bef19d19ce6ef88912837b91529b2f50fdb2e1a06e92789a3e19f64cb033b5",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "program-surge.js",
+      "bytes": 4068,
+      "sha256": "380de43f8d3436f76d7ad73b00aad0d9f02010c86e9e75beb9c909bdf3c8c8ca",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "review-men.html",
+      "bytes": 2265480,
+      "sha256": "b7322affd0679316a5d585e2550b5caa2043a48f8798757d9dcae31b50625e9a",
+      "referenced_by": [
+        "Preserve existing HTML route",
+        "index.html"
+      ]
+    },
+    {
+      "path": "review-men/index.html",
+      "bytes": 2265607,
+      "sha256": "b31a53dbdc4fe27b0481e0dfb0bbb0e9949c4c1ffb5dabd9d318d5f0df571988",
+      "referenced_by": [
+        "Preserve existing HTML route"
+      ]
+    },
+    {
+      "path": "terminal.js",
+      "bytes": 28838,
+      "sha256": "3ef6d8bde92ccd63dc6b03c143cf3512df8fdc41b0d17c7e590880a1bb2cdfa2",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "training-archive.css",
+      "bytes": 17556,
+      "sha256": "7f8ffa79b06c516ae2d1cd628437e24c1722da5c831386f9b9ce00e83240417d",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "training-warp.css",
+      "bytes": 6675,
+      "sha256": "0b1c8b13f075fcb48944b6873bcda7dc0de52d6023978705ee24482c7fbfceae",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "training-wireframe.js",
+      "bytes": 12985,
+      "sha256": "726ccbfdd721ce128ec5f2989ab3c5770f0e7b870961e143a362988f3a42d3cb",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "training.css",
+      "bytes": 59867,
+      "sha256": "ceee02e6dfa0f4154b305402e22f825a477df12d3534ad3437d96f94aff79c66",
+      "referenced_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "training.js",
+      "bytes": 60875,
+      "sha256": "91885556359a727cd061ddbdcf8da66ed3962f0197ecfdc328d47c7c4d20e565",
+      "referenced_by": [
+        "index.html"
+      ]
+    }
+  ],
+  "excluded_dist_files": [
+    {
+      "path": "assets/combat-poses-fine-grid-v2.json",
+      "bytes": 4514,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/combat-poses-v1.json",
+      "bytes": 4504,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/combat-poses-v1.png",
+      "bytes": 1320297,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/construct-entry.mp3",
+      "bytes": 65673,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/selector-shelves.mp4",
+      "bytes": 539772,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/skill-mesh-poses-v1.json",
+      "bytes": 1021,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/skill-mesh-poses-v1.png",
+      "bytes": 1440389,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/skills-original-poses-wire-v3.json",
+      "bytes": 1048,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/tank-load-voice-up.mp4",
+      "bytes": 2415760,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/tank-load.mp4",
+      "bytes": 2353133,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/wireframe-frames.json",
+      "bytes": 674,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "assets/zion-bitmap.ttf",
+      "bytes": 11660,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "human-mesh.js",
+      "bytes": 596609,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "training-takeover.js",
+      "bytes": 2988,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    },
+    {
+      "path": "wireframe.js",
+      "bytes": 2967,
+      "reason": "Not reachable from retained HTML routes, runtime code, CSS, catalogue or training configuration; not a dynamic choice image or attribution file."
+    }
+  ],
+  "browser_checks": "Outstanding: no managed preview service; static dependency analysis cannot replace device/browser acceptance."
+}
