@@ -1,0 +1,40 @@
+name: Publish approved static website to GitHub Pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and verify exact approved test package
+        run: |
+          curl --fail --location --retry 2 https://github.com/MatrixAfterDark/the-construct-program/releases/download/v225-test/matrix-after-dark-github-lean-v225.zip --output /tmp/v225.zip
+          echo '6ca918207cc9393abd448f952b699920fa7b5067aec53b3daf97b0b6f7495807  /tmp/v225.zip' | sha256sum --check
+          unzip -q /tmp/v225.zip -d /tmp/v225
+          python3 - <<'PY'
+          import pathlib, json, hashlib
+          root=pathlib.Path('/tmp/v225/matrix-after-dark-github-lean')
+          audit=json.loads((root/'ASSET-AUDIT.json').read_text())
+          expected={i['path'] for i in audit['retained']}
+          actual={p.relative_to(root/'dist').as_posix() for p in (root/'dist').rglob('*') if p.is_file()}
+          assert len(expected)==499 and actual==expected
+          for item in audit['retained']:
+              assert hashlib.sha256((root/'dist'/item['path']).read_bytes()).hexdigest()==item['sha256'],item['path']
+          print('All 499 deployment files match approved package hashes')
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/v225/matrix-after-dark-github-lean/dist
+      - name: Deploy static files unchanged
+        id: deployment
+        uses: actions/deploy-pages@v4
